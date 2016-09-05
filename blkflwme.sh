@@ -12,4 +12,8 @@ seq 447000000000 447009999999 > fllw700.txt
 # 447624 is not included in this list as it is the area code for the Isle Of Man
 seq 447600000000 447623999999 > fllw761.txt
 seq 447625000000 447699999999 > fllw762.txt
+seq 449000000000 449999999999 > fllw090.txt
+#080 numnbers are free to call - hence they are not blocked in this script
+seq 448100000000 448999999999 > fllw080.txt
+
 sed -i -e 's/^/+/' *.txt
